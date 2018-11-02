@@ -1,0 +1,3 @@
+[submodule "spresense-audio-scope/arduino-lib/TFT"]
+	path = spresense-audio-scope/arduino-lib/TFT
+	url = git@github.com:TE-KarlKomierowski/TFT.git
