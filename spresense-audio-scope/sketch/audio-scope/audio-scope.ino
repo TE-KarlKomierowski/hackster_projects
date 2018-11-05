@@ -1,8 +1,13 @@
+
+
 #define SPI_HAS_TRANSACTION
 #define USE_HW_SPI
+
+#include <TFT.h> /* Include TFT.h first, then Audio.h to avoid __SD_H__ being defined in the Audio.h. */
 #include <Audio.h>
+
 #include <SPI.h>
-#include <TFT.h>
+
 #include <arch/board/board.h>
 
 #define SAMPLE_NUM 256     // Select from 16, 64, 256, 1024
