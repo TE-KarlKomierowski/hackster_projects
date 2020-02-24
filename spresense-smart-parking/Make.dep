@@ -1,0 +1,435 @@
+camera_bkgd.o: camera_bkgd.c /spresense/sdk/bsp/include/sdk/config.h \
+ /spresense/nuttx/include/nuttx/config.h /spresense/nuttx/include/debug.h \
+ /spresense/nuttx/include/nuttx/compiler.h \
+ /spresense/nuttx/include/syslog.h /spresense/nuttx/include/stdint.h \
+ /spresense/nuttx/arch/arm/include/types.h \
+ /spresense/nuttx/include/limits.h \
+ /spresense/nuttx/arch/arm/include/limits.h \
+ /spresenseenv/usr/lib/gcc/arm-none-eabi/7.3.1/include/stdarg.h \
+ /spresense/nuttx/include/stdbool.h /spresense/nuttx/include/errno.h \
+ /spresense/nuttx/include/semaphore.h /spresense/nuttx/include/stdio.h \
+ /spresense/nuttx/include/sys/types.h /spresense/nuttx/include/sched.h \
+ /spresense/nuttx/include/nuttx/sched.h /spresense/nuttx/include/queue.h \
+ /spresense/nuttx/include/signal.h /spresense/nuttx/include/time.h \
+ /spresense/nuttx/include/pthread.h /spresense/nuttx/include/sys/prctl.h \
+ /spresense/nuttx/include/unistd.h \
+ /spresense/nuttx/include/nuttx/semaphore.h \
+ /spresense/nuttx/include/nuttx/clock.h \
+ /spresense/nuttx/include/nuttx/fs/fs.h \
+ /spresense/nuttx/include/nuttx/mqueue.h \
+ /spresense/nuttx/include/mqueue.h /spresense/nuttx/include/queue.h \
+ /spresense/nuttx/include/nuttx/irq.h /spresense/nuttx/include/assert.h \
+ /spresense/nuttx/arch/arm/include/irq.h \
+ /spresense/sdk/bsp/include/arch/chip/irq.h \
+ /spresense/nuttx/arch/arm/include/armv7-m/irq.h \
+ /spresense/nuttx/arch/arm/include/armv7-m/irq_cmnvector.h \
+ /spresense/sdk/../nuttx/include/arch/chip/chip.h \
+ /spresense/nuttx/include/nuttx/wdog.h \
+ /spresense/nuttx/include/nuttx/mm/shm.h \
+ /spresense/nuttx/include/nuttx/mm/gran.h \
+ /spresense/nuttx/include/nuttx/net/net.h \
+ /spresense/nuttx/include/sys/socket.h \
+ /spresense/nuttx/arch/arm/include/arch.h \
+ /spresense/nuttx/include/nuttx/pgalloc.h \
+ /spresense/nuttx/include/nuttx/addrenv.h \
+ /spresense/nuttx/include/stdlib.h /spresense/nuttx/include/string.h \
+ /spresense/nuttx/include/stddef.h /spresense/nuttx/include/nuttx/nx/nx.h \
+ /spresense/nuttx/include/nuttx/nx/nxglib.h \
+ /spresense/nuttx/include/fixedmath.h \
+ /spresense/nuttx/include/nuttx/lcd/lcd.h \
+ /spresense/nuttx/include/nuttx/video/fb.h \
+ /spresense/nuttx/include/nuttx/nx/nxfonts.h nximage.h common.h
+parking_data.o: parking_data.c parking_data.h common.h image.h \
+ /spresense/nuttx/include/nuttx/lcd/lcd.h \
+ /spresense/nuttx/include/sys/types.h \
+ /spresense/nuttx/include/nuttx/config.h \
+ /spresense/nuttx/include/nuttx/compiler.h \
+ /spresense/nuttx/include/stdint.h \
+ /spresense/nuttx/arch/arm/include/types.h \
+ /spresense/nuttx/include/limits.h \
+ /spresense/nuttx/arch/arm/include/limits.h \
+ /spresense/nuttx/include/nuttx/video/fb.h \
+ /spresense/nuttx/include/nuttx/nx/nx.h \
+ /spresense/nuttx/include/stdbool.h \
+ /spresense/nuttx/include/nuttx/nx/nxglib.h \
+ /spresense/nuttx/include/fixedmath.h /spresense/nuttx/include/stddef.h \
+ /spresense/nuttx/include/stdio.h \
+ /spresenseenv/usr/lib/gcc/arm-none-eabi/7.3.1/include/stdarg.h \
+ /spresense/nuttx/include/sched.h /spresense/nuttx/include/nuttx/sched.h \
+ /spresense/nuttx/include/queue.h /spresense/nuttx/include/signal.h \
+ /spresense/nuttx/include/time.h /spresense/nuttx/include/semaphore.h \
+ /spresense/nuttx/include/pthread.h /spresense/nuttx/include/sys/prctl.h \
+ /spresense/nuttx/include/unistd.h \
+ /spresense/nuttx/include/nuttx/semaphore.h \
+ /spresense/nuttx/include/nuttx/clock.h \
+ /spresense/nuttx/include/nuttx/fs/fs.h \
+ /spresense/nuttx/include/nuttx/mqueue.h \
+ /spresense/nuttx/include/mqueue.h /spresense/nuttx/include/queue.h \
+ /spresense/nuttx/include/nuttx/irq.h /spresense/nuttx/include/assert.h \
+ /spresense/nuttx/arch/arm/include/irq.h \
+ /spresense/sdk/bsp/include/arch/chip/irq.h \
+ /spresense/nuttx/arch/arm/include/armv7-m/irq.h \
+ /spresense/nuttx/arch/arm/include/armv7-m/irq_cmnvector.h \
+ /spresense/sdk/../nuttx/include/arch/chip/chip.h \
+ /spresense/nuttx/include/nuttx/wdog.h \
+ /spresense/nuttx/include/nuttx/mm/shm.h /spresense/nuttx/include/debug.h \
+ /spresense/nuttx/include/syslog.h \
+ /spresense/nuttx/include/nuttx/mm/gran.h \
+ /spresense/nuttx/include/nuttx/net/net.h \
+ /spresense/nuttx/include/sys/socket.h \
+ /spresense/nuttx/arch/arm/include/arch.h \
+ /spresense/nuttx/include/nuttx/pgalloc.h \
+ /spresense/nuttx/include/nuttx/addrenv.h \
+ /spresense/nuttx/include/stdlib.h /spresense/nuttx/include/string.h
+xmit.o: xmit.c xmit.h common.h /spresense/nuttx/include/stdint.h \
+ /spresense/nuttx/include/nuttx/config.h \
+ /spresense/nuttx/include/nuttx/compiler.h \
+ /spresense/nuttx/arch/arm/include/types.h \
+ /spresense/nuttx/include/limits.h \
+ /spresense/nuttx/arch/arm/include/limits.h parking_data.h image.h \
+ /spresense/nuttx/include/nuttx/lcd/lcd.h \
+ /spresense/nuttx/include/sys/types.h \
+ /spresense/nuttx/include/nuttx/video/fb.h \
+ /spresense/nuttx/include/nuttx/nx/nx.h \
+ /spresense/nuttx/include/stdbool.h \
+ /spresense/nuttx/include/nuttx/nx/nxglib.h \
+ /spresense/nuttx/include/fixedmath.h /spresense/nuttx/include/stdio.h \
+ /spresenseenv/usr/lib/gcc/arm-none-eabi/7.3.1/include/stdarg.h \
+ /spresense/nuttx/include/sched.h /spresense/nuttx/include/nuttx/sched.h \
+ /spresense/nuttx/include/queue.h /spresense/nuttx/include/signal.h \
+ /spresense/nuttx/include/time.h /spresense/nuttx/include/semaphore.h \
+ /spresense/nuttx/include/pthread.h /spresense/nuttx/include/sys/prctl.h \
+ /spresense/nuttx/include/unistd.h \
+ /spresense/nuttx/include/nuttx/semaphore.h \
+ /spresense/nuttx/include/nuttx/clock.h \
+ /spresense/nuttx/include/nuttx/fs/fs.h \
+ /spresense/nuttx/include/nuttx/mqueue.h \
+ /spresense/nuttx/include/mqueue.h /spresense/nuttx/include/queue.h \
+ /spresense/nuttx/include/nuttx/irq.h /spresense/nuttx/include/assert.h \
+ /spresense/nuttx/arch/arm/include/irq.h \
+ /spresense/sdk/bsp/include/arch/chip/irq.h \
+ /spresense/nuttx/arch/arm/include/armv7-m/irq.h \
+ /spresense/nuttx/arch/arm/include/armv7-m/irq_cmnvector.h \
+ /spresense/sdk/../nuttx/include/arch/chip/chip.h \
+ /spresense/nuttx/include/nuttx/wdog.h \
+ /spresense/nuttx/include/nuttx/mm/shm.h /spresense/nuttx/include/debug.h \
+ /spresense/nuttx/include/syslog.h \
+ /spresense/nuttx/include/nuttx/mm/gran.h \
+ /spresense/nuttx/include/nuttx/net/net.h \
+ /spresense/nuttx/include/sys/socket.h \
+ /spresense/nuttx/arch/arm/include/arch.h \
+ /spresense/nuttx/include/nuttx/pgalloc.h \
+ /spresense/nuttx/include/nuttx/addrenv.h \
+ /spresense/nuttx/include/stdlib.h /spresense/nuttx/include/string.h \
+ /spresense/nuttx/include/stddef.h
+image.o: image.c image.h common.h \
+ /spresense/nuttx/include/nuttx/lcd/lcd.h \
+ /spresense/nuttx/include/sys/types.h \
+ /spresense/nuttx/include/nuttx/config.h \
+ /spresense/nuttx/include/nuttx/compiler.h \
+ /spresense/nuttx/include/stdint.h \
+ /spresense/nuttx/arch/arm/include/types.h \
+ /spresense/nuttx/include/limits.h \
+ /spresense/nuttx/arch/arm/include/limits.h \
+ /spresense/nuttx/include/nuttx/video/fb.h \
+ /spresense/nuttx/include/nuttx/nx/nx.h \
+ /spresense/nuttx/include/stdbool.h \
+ /spresense/nuttx/include/nuttx/nx/nxglib.h \
+ /spresense/nuttx/include/fixedmath.h /spresense/nuttx/include/stdio.h \
+ /spresenseenv/usr/lib/gcc/arm-none-eabi/7.3.1/include/stdarg.h \
+ /spresense/nuttx/include/sched.h /spresense/nuttx/include/nuttx/sched.h \
+ /spresense/nuttx/include/queue.h /spresense/nuttx/include/signal.h \
+ /spresense/nuttx/include/time.h /spresense/nuttx/include/semaphore.h \
+ /spresense/nuttx/include/pthread.h /spresense/nuttx/include/sys/prctl.h \
+ /spresense/nuttx/include/unistd.h \
+ /spresense/nuttx/include/nuttx/semaphore.h \
+ /spresense/nuttx/include/nuttx/clock.h \
+ /spresense/nuttx/include/nuttx/fs/fs.h \
+ /spresense/nuttx/include/nuttx/mqueue.h \
+ /spresense/nuttx/include/mqueue.h /spresense/nuttx/include/queue.h \
+ /spresense/nuttx/include/nuttx/irq.h /spresense/nuttx/include/assert.h \
+ /spresense/nuttx/arch/arm/include/irq.h \
+ /spresense/sdk/bsp/include/arch/chip/irq.h \
+ /spresense/nuttx/arch/arm/include/armv7-m/irq.h \
+ /spresense/nuttx/arch/arm/include/armv7-m/irq_cmnvector.h \
+ /spresense/sdk/../nuttx/include/arch/chip/chip.h \
+ /spresense/nuttx/include/nuttx/wdog.h \
+ /spresense/nuttx/include/nuttx/mm/shm.h /spresense/nuttx/include/debug.h \
+ /spresense/nuttx/include/syslog.h \
+ /spresense/nuttx/include/nuttx/mm/gran.h \
+ /spresense/nuttx/include/nuttx/net/net.h \
+ /spresense/nuttx/include/sys/socket.h \
+ /spresense/nuttx/arch/arm/include/arch.h \
+ /spresense/nuttx/include/nuttx/pgalloc.h \
+ /spresense/nuttx/include/nuttx/addrenv.h \
+ /spresense/nuttx/include/stdlib.h /spresense/nuttx/include/string.h \
+ /spresense/nuttx/include/stddef.h
+spi.o: spi.c spi.h common.h \
+ /spresense/nuttx/include/nuttx/spi/spi_bitbang.h \
+ /spresense/nuttx/include/nuttx/config.h \
+ /spresense/nuttx/include/semaphore.h /spresense/nuttx/include/stdint.h \
+ /spresense/nuttx/include/nuttx/compiler.h \
+ /spresense/nuttx/arch/arm/include/types.h \
+ /spresense/nuttx/include/limits.h \
+ /spresense/nuttx/arch/arm/include/limits.h \
+ /spresense/nuttx/include/nuttx/spi/spi.h \
+ /spresense/nuttx/include/sys/types.h /spresense/nuttx/include/stdbool.h \
+ /spresense/nuttx/include/assert.h /spresense/nuttx/include/errno.h \
+ /spresense/nuttx/include/stdio.h \
+ /spresenseenv/usr/lib/gcc/arm-none-eabi/7.3.1/include/stdarg.h \
+ /spresense/nuttx/include/sched.h /spresense/nuttx/include/nuttx/sched.h \
+ /spresense/nuttx/include/queue.h /spresense/nuttx/include/signal.h \
+ /spresense/nuttx/include/time.h /spresense/nuttx/include/pthread.h \
+ /spresense/nuttx/include/sys/prctl.h /spresense/nuttx/include/unistd.h \
+ /spresense/nuttx/include/nuttx/semaphore.h \
+ /spresense/nuttx/include/nuttx/clock.h \
+ /spresense/nuttx/include/nuttx/fs/fs.h \
+ /spresense/nuttx/include/nuttx/mqueue.h \
+ /spresense/nuttx/include/mqueue.h /spresense/nuttx/include/queue.h \
+ /spresense/nuttx/include/nuttx/irq.h \
+ /spresense/nuttx/arch/arm/include/irq.h \
+ /spresense/sdk/bsp/include/arch/chip/irq.h \
+ /spresense/nuttx/arch/arm/include/armv7-m/irq.h \
+ /spresense/nuttx/arch/arm/include/armv7-m/irq_cmnvector.h \
+ /spresense/sdk/../nuttx/include/arch/chip/chip.h \
+ /spresense/nuttx/include/nuttx/wdog.h \
+ /spresense/nuttx/include/nuttx/mm/shm.h /spresense/nuttx/include/debug.h \
+ /spresense/nuttx/include/syslog.h \
+ /spresense/nuttx/include/nuttx/mm/gran.h \
+ /spresense/nuttx/include/nuttx/net/net.h \
+ /spresense/nuttx/include/sys/socket.h \
+ /spresense/nuttx/arch/arm/include/arch.h \
+ /spresense/nuttx/include/nuttx/pgalloc.h \
+ /spresense/nuttx/include/nuttx/addrenv.h \
+ /spresense/sdk/bsp/include/arch/board/board.h \
+ /spresense/sdk/bsp/include/sdk/config.h \
+ /spresense/nuttx/include/sys/boardctl.h \
+ /spresense/nuttx/include/nuttx/fs/ioctl.h \
+ /spresense/nuttx/include/nuttx/serial/tioctl.h \
+ /spresense/sdk/bsp/include/arch/chip/usbdev.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_gpioif.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_power.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_clock.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_audio.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_flash.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_sdcard.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_spisd.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_emmcdev.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_pwm.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_sensors.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_isx012.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_gauge.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_charger.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_bcm20706.h \
+ /spresense/sdk/bsp/include/arch/chip/pin.h \
+ /spresense/nuttx/include/nuttx/spi/spi_bitbang.c
+gpio.o: lora/gpio.c lora/gpio.h lora/../common.h \
+ /spresense/sdk/bsp/include/arch/board/board.h \
+ /spresense/sdk/bsp/include/sdk/config.h \
+ /spresense/nuttx/include/nuttx/config.h \
+ /spresense/nuttx/include/sys/boardctl.h \
+ /spresense/nuttx/include/stdint.h \
+ /spresense/nuttx/include/nuttx/compiler.h \
+ /spresense/nuttx/arch/arm/include/types.h \
+ /spresense/nuttx/include/limits.h \
+ /spresense/nuttx/arch/arm/include/limits.h \
+ /spresense/nuttx/include/nuttx/fs/ioctl.h \
+ /spresense/nuttx/include/nuttx/serial/tioctl.h \
+ /spresense/sdk/bsp/include/arch/chip/usbdev.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_gpioif.h \
+ /spresense/nuttx/include/stdbool.h /spresense/nuttx/include/nuttx/irq.h \
+ /spresense/nuttx/include/assert.h \
+ /spresense/nuttx/arch/arm/include/irq.h \
+ /spresense/sdk/bsp/include/arch/chip/irq.h \
+ /spresense/nuttx/arch/arm/include/armv7-m/irq.h \
+ /spresense/nuttx/arch/arm/include/armv7-m/irq_cmnvector.h \
+ /spresense/sdk/../nuttx/include/arch/chip/chip.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_power.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_clock.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_audio.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_flash.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_sdcard.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_spisd.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_emmcdev.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_pwm.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_sensors.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_isx012.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_gauge.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_charger.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_bcm20706.h \
+ /spresense/sdk/bsp/include/arch/chip/pin.h \
+ /spresense/nuttx/include/debug.h /spresense/nuttx/include/syslog.h \
+ /spresenseenv/usr/lib/gcc/arm-none-eabi/7.3.1/include/stdarg.h \
+ /spresense/nuttx/include/nuttx/arch.h /spresense/nuttx/include/sched.h \
+ /spresense/nuttx/include/sys/types.h \
+ /spresense/nuttx/include/nuttx/sched.h /spresense/nuttx/include/queue.h \
+ /spresense/nuttx/include/signal.h /spresense/nuttx/include/time.h \
+ /spresense/nuttx/include/semaphore.h /spresense/nuttx/include/pthread.h \
+ /spresense/nuttx/include/sys/prctl.h /spresense/nuttx/include/unistd.h \
+ /spresense/nuttx/include/nuttx/semaphore.h \
+ /spresense/nuttx/include/nuttx/clock.h \
+ /spresense/nuttx/include/nuttx/fs/fs.h \
+ /spresense/nuttx/include/nuttx/mqueue.h \
+ /spresense/nuttx/include/mqueue.h /spresense/nuttx/include/queue.h \
+ /spresense/nuttx/include/nuttx/wdog.h \
+ /spresense/nuttx/include/nuttx/mm/shm.h \
+ /spresense/nuttx/include/nuttx/mm/gran.h \
+ /spresense/nuttx/include/nuttx/net/net.h \
+ /spresense/nuttx/include/sys/socket.h \
+ /spresense/nuttx/arch/arm/include/arch.h \
+ /spresense/nuttx/include/nuttx/pgalloc.h \
+ /spresense/nuttx/include/nuttx/addrenv.h \
+ /spresense/nuttx/include/elf32.h /spresense/nuttx/include/stdio.h
+trx.o: trx.c /spresense/sdk/bsp/include/sdk/config.h \
+ /spresense/nuttx/include/nuttx/config.h /spresense/nuttx/include/fcntl.h \
+ /spresense/nuttx/include/sys/types.h \
+ /spresense/nuttx/include/nuttx/compiler.h \
+ /spresense/nuttx/include/stdint.h \
+ /spresense/nuttx/arch/arm/include/types.h \
+ /spresense/nuttx/include/limits.h \
+ /spresense/nuttx/arch/arm/include/limits.h \
+ /spresense/nuttx/include/nuttx/fs/ioctl.h \
+ /spresense/nuttx/include/nuttx/serial/tioctl.h \
+ /spresense/nuttx/include/stdio.h \
+ /spresenseenv/usr/lib/gcc/arm-none-eabi/7.3.1/include/stdarg.h \
+ /spresense/nuttx/include/sched.h /spresense/nuttx/include/stdbool.h \
+ /spresense/nuttx/include/nuttx/sched.h /spresense/nuttx/include/queue.h \
+ /spresense/nuttx/include/signal.h /spresense/nuttx/include/time.h \
+ /spresense/nuttx/include/semaphore.h /spresense/nuttx/include/pthread.h \
+ /spresense/nuttx/include/sys/prctl.h /spresense/nuttx/include/unistd.h \
+ /spresense/nuttx/include/nuttx/semaphore.h \
+ /spresense/nuttx/include/nuttx/clock.h \
+ /spresense/nuttx/include/nuttx/fs/fs.h \
+ /spresense/nuttx/include/nuttx/mqueue.h \
+ /spresense/nuttx/include/mqueue.h /spresense/nuttx/include/queue.h \
+ /spresense/nuttx/include/nuttx/irq.h /spresense/nuttx/include/assert.h \
+ /spresense/nuttx/arch/arm/include/irq.h \
+ /spresense/sdk/bsp/include/arch/chip/irq.h \
+ /spresense/nuttx/arch/arm/include/armv7-m/irq.h \
+ /spresense/nuttx/arch/arm/include/armv7-m/irq_cmnvector.h \
+ /spresense/sdk/../nuttx/include/arch/chip/chip.h \
+ /spresense/nuttx/include/nuttx/wdog.h \
+ /spresense/nuttx/include/nuttx/mm/shm.h /spresense/nuttx/include/debug.h \
+ /spresense/nuttx/include/syslog.h \
+ /spresense/nuttx/include/nuttx/mm/gran.h \
+ /spresense/nuttx/include/nuttx/net/net.h \
+ /spresense/nuttx/include/sys/socket.h \
+ /spresense/nuttx/arch/arm/include/arch.h \
+ /spresense/nuttx/include/nuttx/pgalloc.h \
+ /spresense/nuttx/include/nuttx/addrenv.h \
+ /spresense/nuttx/include/sys/ioctl.h \
+ /spresense/nuttx/include/nuttx/net/ioctl.h \
+ /spresense/nuttx/include/sys/stat.h /spresense/nuttx/include/termios.h
+LoRa.o: lora/LoRa.cxx /spresense/nuttx/include/stdint.h \
+ /spresense/nuttx/include/nuttx/config.h \
+ /spresense/nuttx/include/nuttx/compiler.h \
+ /spresense/nuttx/arch/arm/include/types.h \
+ /spresense/nuttx/include/limits.h \
+ /spresense/nuttx/arch/arm/include/limits.h \
+ /spresense/nuttx/include/stdlib.h /spresense/nuttx/include/sys/types.h \
+ lora/../spi.h lora/../common.h lora/LoRa.h lora/gpio.h \
+ /spresense/sdk/bsp/include/arch/board/board.h \
+ /spresense/sdk/bsp/include/sdk/config.h \
+ /spresense/nuttx/include/sys/boardctl.h \
+ /spresense/nuttx/include/nuttx/fs/ioctl.h \
+ /spresense/nuttx/include/nuttx/serial/tioctl.h \
+ /spresense/sdk/bsp/include/arch/chip/usbdev.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_gpioif.h \
+ /spresense/nuttx/include/stdbool.h /spresense/nuttx/include/nuttx/irq.h \
+ /spresense/nuttx/include/assert.h \
+ /spresense/nuttx/arch/arm/include/irq.h \
+ /spresense/sdk/bsp/include/arch/chip/irq.h \
+ /spresense/nuttx/arch/arm/include/armv7-m/irq.h \
+ /spresense/nuttx/arch/arm/include/armv7-m/irq_cmnvector.h \
+ /spresense/sdk/../nuttx/include/arch/chip/chip.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_power.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_clock.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_audio.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_flash.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_sdcard.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_spisd.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_emmcdev.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_pwm.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_sensors.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_isx012.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_gauge.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_charger.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_bcm20706.h \
+ /spresense/sdk/bsp/include/arch/chip/pin.h \
+ /spresense/nuttx/include/debug.h /spresense/nuttx/include/syslog.h \
+ /spresenseenv/usr/lib/gcc/arm-none-eabi/7.3.1/include/stdarg.h \
+ /spresense/nuttx/include/nuttx/spi/spi.h \
+ /spresense/nuttx/include/errno.h
+smart_parking_main.o: smart_parking_main.cxx \
+ /spresense/sdk/bsp/include/sdk/config.h \
+ /spresense/nuttx/include/nuttx/config.h /spresense/nuttx/include/debug.h \
+ /spresense/nuttx/include/nuttx/compiler.h \
+ /spresense/nuttx/include/syslog.h /spresense/nuttx/include/stdint.h \
+ /spresense/nuttx/arch/arm/include/types.h \
+ /spresense/nuttx/include/limits.h \
+ /spresense/nuttx/arch/arm/include/limits.h \
+ /spresenseenv/usr/lib/gcc/arm-none-eabi/7.3.1/include/stdarg.h \
+ /spresense/nuttx/include/stdbool.h /spresense/nuttx/include/errno.h \
+ /spresense/nuttx/include/fcntl.h /spresense/nuttx/include/sys/types.h \
+ /spresense/nuttx/include/semaphore.h /spresense/nuttx/include/stdio.h \
+ /spresense/nuttx/include/sched.h /spresense/nuttx/include/nuttx/sched.h \
+ /spresense/nuttx/include/queue.h /spresense/nuttx/include/signal.h \
+ /spresense/nuttx/include/time.h /spresense/nuttx/include/pthread.h \
+ /spresense/nuttx/include/sys/prctl.h /spresense/nuttx/include/unistd.h \
+ /spresense/nuttx/include/nuttx/semaphore.h \
+ /spresense/nuttx/include/nuttx/clock.h \
+ /spresense/nuttx/include/nuttx/fs/fs.h \
+ /spresense/nuttx/include/nuttx/mqueue.h \
+ /spresense/nuttx/include/mqueue.h /spresense/nuttx/include/queue.h \
+ /spresense/nuttx/include/nuttx/irq.h /spresense/nuttx/include/assert.h \
+ /spresense/nuttx/arch/arm/include/irq.h \
+ /spresense/sdk/bsp/include/arch/chip/irq.h \
+ /spresense/nuttx/arch/arm/include/armv7-m/irq.h \
+ /spresense/nuttx/arch/arm/include/armv7-m/irq_cmnvector.h \
+ /spresense/sdk/../nuttx/include/arch/chip/chip.h \
+ /spresense/nuttx/include/nuttx/wdog.h \
+ /spresense/nuttx/include/nuttx/mm/shm.h \
+ /spresense/nuttx/include/nuttx/mm/gran.h \
+ /spresense/nuttx/include/nuttx/net/net.h \
+ /spresense/nuttx/include/sys/socket.h \
+ /spresense/nuttx/arch/arm/include/arch.h \
+ /spresense/nuttx/include/nuttx/pgalloc.h \
+ /spresense/nuttx/include/nuttx/addrenv.h \
+ /spresense/nuttx/include/stdlib.h /spresense/nuttx/include/string.h \
+ /spresense/nuttx/include/stddef.h /spresense/nuttx/include/sys/stat.h \
+ /spresense/sdk/modules/include/video/video.h \
+ /spresense/nuttx/include/sys/ioctl.h \
+ /spresense/nuttx/include/nuttx/fs/ioctl.h \
+ /spresense/nuttx/include/nuttx/serial/tioctl.h \
+ /spresense/nuttx/include/nuttx/net/ioctl.h \
+ /spresense/sdk/modules/include/video/video_controls.h \
+ /spresense/nuttx/include/nuttx/arch.h /spresense/nuttx/include/elf32.h \
+ /spresense/nuttx/include/nuttx/board.h \
+ /spresense/nuttx/include/nuttx/fs/mkfatfs.h \
+ /spresense/nuttx/include/sys/boardctl.h \
+ /spresense/nuttx/include/sys/mount.h \
+ /spresense/sdk/bsp/include/arch/board/board.h \
+ /spresense/sdk/bsp/include/arch/chip/usbdev.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_gpioif.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_power.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_clock.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_audio.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_flash.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_sdcard.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_spisd.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_emmcdev.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_pwm.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_sensors.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_isx012.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_gauge.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_charger.h \
+ /spresense/sdk/bsp/include/arch/board/common/cxd56_bcm20706.h \
+ /spresense/sdk/bsp/include/arch/chip/cisif.h \
+ /spresense/sdk/bsp/include/arch/chip/pm.h nximage.h common.h \
+ /spresense/nuttx/include/nuttx/nx/nx.h \
+ /spresense/nuttx/include/nuttx/nx/nxglib.h \
+ /spresense/nuttx/include/fixedmath.h \
+ /spresense/nuttx/include/nuttx/lcd/lcd.h \
+ /spresense/nuttx/include/nuttx/video/fb.h image.h lora/LoRa.h \
+ lora/gpio.h /spresense/sdk/bsp/include/arch/chip/pin.h spi.h \
+ parking_data.h xmit.h trx.h

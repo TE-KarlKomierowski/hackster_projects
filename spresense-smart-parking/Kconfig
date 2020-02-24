@@ -1,0 +1,36 @@
+
+config EXAMPLES_SMART_PARKING
+	bool "smart_parking app"
+	default n
+	---help---
+		Enable the smart_parking app
+
+if EXAMPLES_SMART_PARKING
+
+config EXAMPLES_SMART_PARKING_PROGNAME
+	string "Program name"
+	default "smart_parking"
+	depends on BUILD_KERNEL
+	---help---
+		This is the name of the program that will be use when the NSH ELF
+		program is installed.
+
+config EXAMPLES_SMART_PARKING_PRIORITY
+	int "smart_parking task priority"
+	default 100
+
+config EXAMPLES_SMART_PARKING_STACKSIZE
+	int "smart_parking stack size"
+	default 2048
+
+config EXAMPLES_SMART_PARKING_OUTPUT_LCD
+	bool "Output LCD"
+	select CXD56_SPI
+	imply CXD56_DMAC_SPI4_TX
+	imply CXD56_DMAC_SPI5_TX
+	select LCD
+	select LCD_ILI9340
+	select LCD_ILI9340_IFACE0
+
+endif
+

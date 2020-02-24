@@ -1,0 +1,4 @@
+
+ifeq ($(CONFIG_EXAMPLES_SMART_PARKING),y)
+CONFIGURED_APPS += smart_parking
+endif
